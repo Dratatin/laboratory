@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/global.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="container">
+        <a href="/home.html">Back link</a>
+    </header>
+    <main>
+        <section class="container">
+            <ul class="card-list">
+                <li class="card-list__item" data-card-animation>
+                    Card1
+                    <div class="fixed" data-full-screen="video">
+                        <!-- <img class="fixed__content" src="assets/images/fullscreenImage.jpg" alt="coucou"> -->
+                        <video class="fixed__content">
+                            <source src="assets/video/fullscreenVideo.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </li>
+                <li class="card-list__item" data-card-animation>
+                    Card2
+                    <div class="fixed" data-full-screen="image">
+                        <img class="fixed__content" src="assets/images/fullscreenImage.jpg" alt="coucou">
+                    </div>
+                </li>
+                <li class="card-list__item" data-card-animation>
+                    Card3
+                    <div class="fixed" data-full-screen="image">
+                        <img class="fixed__content" src="assets/images/fullscreenImage.jpg" alt="coucou">
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="./script/script.js"></script>
+</body>
+</html>
