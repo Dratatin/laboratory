@@ -90,11 +90,14 @@ h2 {
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     gap: 1rem;
 }
-.labo-section .labo-list .labo-card {
-    aspect-ratio: 4/3;
+.labo-card .labo-card__illustration {
+    height: 200px;
     background-color: #0b272d;
     border-radius: 15px;
     color: #e0e8e5;
     display: flex;
 }
 
+.labo-card .labo-card__title {
+    margin-top: 10px;
+}
