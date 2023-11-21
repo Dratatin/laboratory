@@ -8,3 +8,5 @@ gsap.to(".container", {
         markers: true,
     }
 })
+
+console.log("test")
