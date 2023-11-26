@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./../../global.css">
-    <!-- <link rel="stylesheet" href="style/style.css"> -->
+    <link rel="stylesheet" href="style/style.css">
     <title>Document</title>
 </head>
 <body>
@@ -13,8 +13,26 @@
     </header>
     <main>
         <section class="container">
-            Sticky sticky
+            <ul class="sticky-list" data-stickycard-section>
+                <li class="sticky-item" data-stickycard-item>
+                    <span>Content</span>
+                </li>
+                <li class="sticky-item" data-stickycard-item>
+                    <span>Content</span>
+                </li>
+                <li class="sticky-item" data-stickycard-item>
+                    <span>Content</span>
+                </li>
+                <li class="sticky-item" data-stickycard-item>
+                    <span>Content</span>
+                </li>
+                <!-- BLANK CARD SO LAST CARD IS ALSO STICKY -->
+                <li class="sticky-item" data-stickycard-item>
+                    blank card
+                </li>
+            </ul>
         </section>
     </main>
+    <script src="./dist/bundle.js"></script>
 </body>
 </html>

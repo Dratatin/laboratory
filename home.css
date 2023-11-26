@@ -9,10 +9,10 @@
     gap: 1rem;
 }
 .labo-card .labo-card__illustration {
-    height: 200px;
+    aspect-ratio: 4/3;
     background-color: #0b272d;
-    border-radius: 15px;
-    color: #e0e8e5;
+    border-radius: var(--border-radius);
+    color: var(--light-color);
     display: flex;
 }
 

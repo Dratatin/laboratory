@@ -16,6 +16,7 @@ fs.readdirSync(pagesDir).forEach(page => {
 
 module.exports = {
   entry: entryPoints,
+  watch: true,
   output: {
     filename: (pathData) => `${pathData.chunk.name}/dist/bundle.js`,
     path: path.resolve(__dirname, 'pages'),

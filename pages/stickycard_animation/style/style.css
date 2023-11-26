@@ -1,0 +1,28 @@
+.sticky-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    /* Need content under to have enought scroll */
+    margin-bottom: 100vh;
+}
+
+.sticky-item {
+    width: 80vw;
+    max-width: 600px;
+    background-color: var(--primary-color);
+    aspect-ratio: 4/3;
+    color: var(--light-color);
+    border-radius: var(--border-radius);
+    position: sticky;
+    border: 3px solid var(--light-color);
+    padding: 20px;
+    transition: all 0.3s ease-out;
+    transform-origin: top center;
+}
+.sticky-item.scale {
+    transform: scale(0.7);
+}
+.sticky-item:last-child {
+    visibility: hidden;
+}
