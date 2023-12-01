@@ -1,6 +1,8 @@
 .card-list {
     display: flex;
     justify-content: space-evenly;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
 .card-list__item {
